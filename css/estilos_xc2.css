@@ -1,0 +1,327 @@
+/* CSS Document */
+
+/* basicos */
+
+
+
+.cuadro_cen_index a {
+    text-decoration: none;
+    color: black;
+}
+
+.cuadro_cen_index a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.cuadros-texto {
+    font-size: 2em;
+    text-align: center;
+}
+
+.p_dere {
+    font-family: 'Jaldi', sans-serif;
+    float: right;
+    color: white;
+    padding-right: 15px;
+    line-height: 50px;
+}
+
+
+.nulo{
+    line-height: 30px;
+}
+
+.banner2 {
+    display: none;
+}
+
+.textopuro ul>li {
+    font-family: 'Jaldi', sans-serif;
+}
+
+.derecha {
+    display: none;
+}
+
+.leyenda {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 2em;
+}
+
+.logo {
+    display: none;
+    text-align: center;
+}
+
+.logo_sup {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(17, 36, 66);
+
+}
+
+.logo_sup img {
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    padding-left: 8px;
+}
+
+.logo_sup:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.sup_izq {
+    width: 50%;
+    margin-left: 5%;
+    height: 50px;
+}
+
+.textologo {
+    float: left;
+    color: white;
+    padding-left: 40px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.fondo_blanco {
+    display: inline-block;
+    height: 30px;
+    width: 50%;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.textologo2 {
+    float: left;
+    color: rgb(17, 36, 66);
+    padding-left: 80px;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.caja-servicios-foto {
+    width: 100%;
+}
+
+.caja-servicios-foto img{
+    width: 100%;
+}
+marquee {
+    background-color: rgb(70, 84, 103);
+    color: #fff;
+    font-family: 'Jaldi', sans-serif;
+    height: 25px;
+    line-height: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.horario {
+    background-image: url(../img/insta/insta_xc-8.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.pie_horario {
+    text-align: center;
+    color: white;
+}
+
+/* contenedores */
+
+.contenedor_general {
+    position: relative;
+    min-height: 100%;
+}
+
+.contenedor_central {
+    margin-top: 10px;
+}
+
+
+
+.textopuro {
+    width: 85%;
+    margin: auto;
+    font-size: 18px;;
+    line-height: 20px;
+}
+.textopuro h4 {
+    margin-top: 50px;
+}
+
+.contenedor_servicios {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caja_vertical {
+    border: black 1px dashed;
+    padding: 15px;
+    width: 30%;
+}
+
+
+
+.galeria img {
+    width: 100%;
+}
+
+
+
+/* CONTENEDOR DE PROFESORES */
+
+.contenedor_g_profesores {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+
+.contenedor_profesor {
+    width: 270px;
+    height: 650px;
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.contenedor_imagen_profe {
+    width: 260px;
+    height: 320px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.contenedor_imagen_profe img {
+    width: 100%;
+}
+
+/* FIN DE CONTENDOR DE PROFESORES */
+
+/* CONTENDOR DE INSTALACIONES */
+
+.contenedor_imagen {
+    width: 180px;
+    height: 120px;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #029EC7;
+    /*vertical-align:top;*/
+}
+
+.foto_de_contenedor {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.foto_de_contenedor img {
+    width: 100%;
+}
+
+.texto_foto {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+/* FIN DE CONTENEDOR DE INSTALACIONES */
+
+/* CONTENEDOR DE GALERIA */
+
+.contenedor_g_galeria {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+
+.contenedor_galeria {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #029EC7;
+    /*vertical-align:top;*/
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.contenedor_imagen_galeria {
+    width: 100%;
+    /*height:140px;*/
+    margin: auto;
+    overflow: hidden;
+}
+
+/*
+.contenedor_imagen_galeria img {
+	height:100%;
+			}*/
+
+/* FIN DE CONTENDOR DE GALERIA */
+
+/* MENU SUPERIOR */
+
+
+/* CENTRAL */
+
+/* FIN CENTRAL */
+
+/* linea divisoria horizontal */
+
+.linea {
+    border-bottom: 1px solid gray;
+    margin: 30px 0;
+}
+
+∑
+
+
+
+
+
+/*FIN DE FOOTER*/
+
+.caja-gracias {
+    display: block;
+
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

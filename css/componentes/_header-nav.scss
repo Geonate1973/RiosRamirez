@@ -1,0 +1,88 @@
+
+header {
+    width: 100%;
+    display: inline;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    float: right;
+    width: 50%;
+    background: rgb(48, 82, 127);
+    transition: 0.6s;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    border-right: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.menu li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.menu li:hover a {
+    color: rgb(17, 36, 66);
+}
+
+.menu li a {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 20px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.activo {
+    background: #029EC7;
+    color: red;
+}
+
+.social_superior {
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    width: 50px;
+    height: 180px;
+    padding-left: 10px;
+    line-height: 60px;
+    z-index: 1000;
+    border-radius: 0 10px 10px 0;
+}
+
+.social_superior a {
+    color: white;
+    margin-left: 5px;
+}
+
+.social_superior a:hover {
+    color: red;
+    margin-left: 5px;
+}

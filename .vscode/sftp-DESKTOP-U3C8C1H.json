@@ -1,0 +1,9 @@
+{
+    "protocol": "ftp",
+    "host": "geodreamspro.com",
+    "port":21,
+    "username": "Geonate@riosramirez.com",
+    "password": "G24rw3ng",
+    "uploadOnSave":true,
+    "remotePath": "/test"
+}
