@@ -1,0 +1,75 @@
+/* CSS Document */
+
+.fondo_cv {
+	height:900px;
+	background-image:url("../img/galeria/insta_xc-89.jpg");
+	background-repeat:repeat;
+background-color: #464646;
+	-webkit-background-size: cover;
+	background-size:cover;
+}
+
+.contenedor_secciones_cv {
+	float:right;
+	background-color: #fff;
+	opacity:.5;
+	width:800px;
+	padding-left:20px;
+	margin-top:10px;
+	padding-bottom:20px;
+	}
+	
+label{
+	display:inline-block;
+	width:200px;}
+	
+input{
+	width:80%;
+	margin-top:10px;}
+	
+input:focus { 
+    background-color: yellow;
+}
+	
+textarea{
+	width:80%;
+	margin-top:10px;}
+
+
+
+@media (max-width:768px) {
+	
+.contenedor_secciones_cv {
+	background-color: #fff;
+	opacity:.5;
+	width:100%;
+	padding-left:20px;
+	margin-top:10px;
+	padding-bottom:20px;
+	
+	} 
+	
+	
+label{
+	display:inline-block;
+	width:100%;
+	}
+	
+input{
+	width:80%;
+	margin-top:2px;
+	margin-bottom:10px;
+	height:40px;
+	font-size:1.3em;}
+	
+	input:focus { 
+    background-color: yellow;
+}
+	
+textarea{
+	width:80%;
+	margin-top:2px;
+	margin-bottom:10px;
+	height:40px;}	
+	
+}
