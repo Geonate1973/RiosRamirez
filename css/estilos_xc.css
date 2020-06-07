@@ -614,6 +614,15 @@ textarea {
     
 }
 
+.creditogeo{
+    font-size: 13px;
+    
+}
+
+.creditogeo a{
+    text-decoration: underline;
+}
+
 /*FIN DE FOOTER*/
 
 .caja-gracias {

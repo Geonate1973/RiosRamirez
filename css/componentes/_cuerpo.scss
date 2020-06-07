@@ -59,3 +59,38 @@ article ul li {
     max-width: 80%;
     padding-bottom: 20px;
 }
+
+
+.contenedor_general {
+    position: relative;
+    min-height: 100%;
+}
+
+.contenedor_central {
+    margin-top: 10px;
+}
+
+
+
+.textopuro {
+    width: 85%;
+    margin: auto;
+    font-size: 18px;;
+    line-height: 20px;
+}
+.textopuro h4 {
+    margin-top: 50px;
+}
+
+.contenedor_servicios {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caja_vertical {
+    border: black 1px dashed;
+    padding: 15px;
+    width: 30%;
+}

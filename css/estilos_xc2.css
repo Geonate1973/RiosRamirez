@@ -34,9 +34,7 @@
     line-height: 30px;
 }
 
-.banner2 {
-    display: none;
-}
+
 
 .textopuro ul>li {
     font-family: 'Jaldi', sans-serif;
@@ -51,45 +49,8 @@
     font-size: 2em;
 }
 
-.logo {
-    display: none;
-    text-align: center;
-}
 
-.logo_sup {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(17, 36, 66);
 
-}
-
-.logo_sup img {
-    height: 100%;
-    overflow: hidden;
-    float: left;
-    padding-left: 8px;
-}
-
-.logo_sup:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.sup_izq {
-    width: 50%;
-    margin-left: 5%;
-    height: 50px;
-}
-
-.textologo {
-    float: left;
-    color: white;
-    padding-left: 40px;
-    line-height: 50px;
-    font-size: 30px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-}
 
 .fondo_blanco {
     display: inline-block;
@@ -99,15 +60,6 @@
     background-color: #fff;
 }
 
-.textologo2 {
-    float: left;
-    color: rgb(17, 36, 66);
-    padding-left: 80px;
-    line-height: 50px;
-    margin-bottom: 0;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-}
 
 .caja-servicios-foto {
     width: 100%;
@@ -141,39 +93,6 @@ marquee {
 
 /* contenedores */
 
-.contenedor_general {
-    position: relative;
-    min-height: 100%;
-}
-
-.contenedor_central {
-    margin-top: 10px;
-}
-
-
-
-.textopuro {
-    width: 85%;
-    margin: auto;
-    font-size: 18px;;
-    line-height: 20px;
-}
-.textopuro h4 {
-    margin-top: 50px;
-}
-
-.contenedor_servicios {
-    width: 99%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.caja_vertical {
-    border: black 1px dashed;
-    padding: 15px;
-    width: 30%;
-}
 
 
 
